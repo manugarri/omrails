@@ -15,10 +15,11 @@ body {
 }
 @import 'bootstrap-responsive';
 
-/*THis overwrites the original bootstrap navbar-inner shadow*/
+/*This overwrites the original bootstrap navbar-inner shadow*/
 .navbar-inner{
 	@include box-shadow(none !important);
 	border: 05;
+	border-color: purple;
 }
 
 .footer {
