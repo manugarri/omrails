@@ -25,6 +25,8 @@
 		<ul class="nav pull-right">
       <!--check if the user is logged in to show the login/logout option-->
      <% if user_signed_in? %>
+      
+      <li><%= link_to "Add +", new_pin_path%></li>
       <li><%= link_to "Edit profile", edit_user_registration_path%></li>
 
       
